@@ -1,0 +1,9 @@
+include CHANGELOG.md
+include CONTRIBUTING.md
+include LICENSE
+include README.md
+include SECURITY.md
+include requirements.txt
+include scanner.py
+recursive-include src/vulnscanner_lite py.typed
+recursive-include tests *.py
